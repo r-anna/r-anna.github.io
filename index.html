@@ -15,23 +15,32 @@
         }
 
         body {
-            background-color: lightblue;
-            text-align: center  ;
+            background-color: rgb(136, 225, 255);
+            text-align: center;
+            background-image: url('paper.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
         }
 
+
         p {
+            /* text */
             margin-top: 100px;
             margin-bottom: 100px;
             margin-right: 150px;
             margin-left: 80px;
         }
+
         #ramka {
-  border-radius: 25px;
-  background: #73AD21;
-  padding: 20px;
-  width: 200px;
-  height: 50px;
-}
+            border-radius: 25px;
+            background: #b9ac93;
+            padding: 20px;
+            width: 200px;
+            height: 50px;
+            color: #ffbb00;
+        }
+
         h1 {
             color: #9933ff;
         }
@@ -40,10 +49,12 @@
 
 
 <body>
- <div id="ramka"> <p1>Disclosure: the site in pre-alpha stage!!</p1></div>
+    <div id="ramka">
+        <p1>Disclosure: the site in pre-alpha stage!!</p1>
+    </div>
     <h1>ЛЮБИМАЯ ПЕСНЯ</h1>
     <hr>
-    <p>
+    <p style="font-size: 30px;">
         ДВЕ ТЫСЯЧИ ЛЕТ ВОЙНА <br>
         ВОЙНА БЕЗ ОСОБЫХ ПРИЧИН.<br>
         война дело молодых<br> лекарство против морщин.<br>
@@ -58,10 +69,10 @@
     <picture>
         <!-- <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
         <source media="(min-width:465px)" srcset="img_white_flower.jpg"> -->
-        <img src="mg_orange_flowers.png" alt="Flowers" style="width:auto;">
+        <!-- <img src="mg_orange_flowers.png" alt="Flowers" style="width:auto;"> -->
     </picture>
     <!-- <hr style="height:3px;border-width:1px;color:#9933ff;background-color:#9933ff;width:50%;text-align:center"> -->
-    
+
     <hr>
 </body>
 
